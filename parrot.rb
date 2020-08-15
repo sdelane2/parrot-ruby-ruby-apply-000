@@ -1,4 +1,4 @@
-def parrot(default = "Squawk!")
-  puts "#{default}"
-  return "#{default}"
+def parrot(says = "Squawk!")
+  puts says
+  says
 end
